@@ -1,21 +1,99 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Demo Page</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All About Basketball</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #ff4500;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
 
-        <link href="./Demo Page_files/Demo.css" rel="stylesheet">
+<header>
+    <h1>All About Basketball</h1>
+    <p>Your guide to the world of hoops</p>
+</header>
 
-    </head>
-    <body>
-        <h1>This is my demo page!</h1>
-        <div><p>The quick brown fox jumps over the lazy dog.</p></div>
-        <p>The quick brown fox jumps over the lazy dog.</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#rules">Rules</a>
+    <a href="#players">Famous Players</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-        <img src="./Demo Page_files/stupidmemeiwastedtimeon.png" width="400" height="400">
+<div class="container">
+    <section id="about">
+        <h2>About Basketball</h2>
+        <p>Basketball is a fast-paced sport played by two teams of five players. The objective is to score points by shooting a ball through the opposing team's hoop.</p>
+    </section>
 
-        <figure>
-            content
-            <figcaption>caption text</figcaption>
-        </figure>
+    <section id="rules">
+        <h2>Basic Rules</h2>
+        <ul>
+            <li>Each team has 5 players on the court.</li>
+            <li>The game is played in four quarters of 12 minutes (NBA rules).</li>
+            <li>Dribbling is required when moving with the ball.</li>
+            <li>Field goals are worth 2 or 3 points, depending on distance.</li>
+            <li>Free throws are worth 1 point each.</li>
+        </ul>
+    </section>
 
-    
-</body></html>
+    <section id="players">
+        <h2>Famous Players</h2>
+        <ul>
+            <li>Michael Jordan</li>
+            <li>LeBron James</li>
+            <li>Kobe Bryant</li>
+            <li>Stephen Curry</li>
+            <li>Shaquille O'Neal</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have questions or suggestions? Email us at <a href="mailto:info@basketballsite.com">info@basketballsite.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 All About Basketball. All rights reserved.
+</footer>
+
+</body>
+</html>
