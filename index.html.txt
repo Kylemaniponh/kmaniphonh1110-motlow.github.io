@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Demo Page</title>
+
+        <link href="./Demo Page_files/Demo.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>This is my demo page!</h1>
+        <div><p>The quick brown fox jumps over the lazy dog.</p></div>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+
+        <img src="./Demo Page_files/stupidmemeiwastedtimeon.png" width="400" height="400">
+
+        <figure>
+            content
+            <figcaption>caption text</figcaption>
+        </figure>
+
+    
+</body></html>

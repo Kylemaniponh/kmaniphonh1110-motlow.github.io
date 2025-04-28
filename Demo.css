@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 3.0em;
+    line-height: 0em;
+    color: green;
+}
+
+div {
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: aqua;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+    
